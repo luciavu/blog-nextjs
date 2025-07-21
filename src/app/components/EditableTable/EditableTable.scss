@@ -1,0 +1,37 @@
+.table-summary {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  border-spacing: 1rem 0rem;
+
+  th {
+    text-align: start;
+  }
+
+  td {
+    align-self: center;
+  }
+
+  textarea {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  input {
+    width: max-content;
+  }
+
+  button {
+    border-radius: 0;
+  }
+  .delete {
+    background-color: rgb(255, 49, 49);
+    color: white;
+  }
+
+  .true {
+    color: rgb(49, 255, 128);
+  }
+}

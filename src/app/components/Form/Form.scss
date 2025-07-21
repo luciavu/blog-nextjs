@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+  body .form-wrapper .flex-container .fields {
+    width: 80%;
+  }
+}
+
+.form-wrapper {
+  padding: 5rem;
+
+  .flex-container {
+    flex-direction: column;
+
+    h1 {
+      margin: 3rem 0 1rem 0;
+      font-size: 3rem;
+    }
+
+    .error-message {
+      color: var(--main);
+      margin-bottom: 2rem;
+    }
+
+    .fields {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      width: 25%;
+    }
+
+    button {
+      width: max-content;
+      margin: 1rem 0;
+      padding: 1rem 3rem;
+      transition: 0.2s ease-in-out;
+    }
+
+    button:hover {
+      background-color: var(--main);
+    }
+  }
+}

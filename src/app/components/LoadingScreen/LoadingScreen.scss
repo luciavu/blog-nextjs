@@ -1,0 +1,23 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-screen {
+  width: 100%;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .spin {
+    height: 50%;
+    animation: rotate 2s infinite linear;
+    color: var(--main);
+  }
+}

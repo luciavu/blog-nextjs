@@ -1,0 +1,60 @@
+@media only screen and (max-width: 768px) {
+  body .comment-section h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+}
+
+.comment-section {
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .comment,
+  .new-comment-div {
+    padding: 1rem;
+    justify-content: start;
+    gap: 1rem;
+
+    .date {
+      font-size: 0.7rem;
+    }
+
+    .user-details {
+      justify-content: start;
+      gap: 0.6rem;
+
+      .author {
+        background-color: rgba(255, 255, 255);
+        color: black;
+        font-size: 0.7rem;
+        padding: 0 0.4rem;
+        border-radius: 2rem;
+      }
+    }
+  }
+  .new-comment-div {
+    width: 100%;
+    gap: 1rem;
+
+    .profile-picture {
+      flex-shrink: 0;
+    }
+
+    .new-comment-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    button {
+      margin-left: 1rem;
+      flex-shrink: 0;
+    }
+  }
+}
